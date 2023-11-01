@@ -6,7 +6,7 @@ from .serializers import AlunosSerializer
 
 from .models import Aluno as AlunoModel
 
-import requests
+
 class Alunos(APIView):
 
     def get(self, request, *args, **kwargs):
